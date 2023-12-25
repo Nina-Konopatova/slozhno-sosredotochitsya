@@ -195,6 +195,9 @@
 
 .section {
   line-height: 130%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .content__title {
@@ -260,13 +263,7 @@
   outline: 1px solid var(--main-text-color);
 }
 
-.section {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
-.mod-two-parts-title  {
+.mod-two-parts-title {
   width: 100%;
   margin-block-end: 20px;
 }
@@ -278,7 +275,7 @@
 }
 
 @media (width >= 1024px) {
-  .mod-two-parts-title  {
+  .mod-two-parts-title {
     flex: 0 0 auto;
     width: 33%;
   }
@@ -397,7 +394,7 @@
   text-align: center;
   margin-block-start: 40px;
   padding: 262px 10px;
-  min-height: 100vh;
+  min-height: 100vh;  
 }
 
 
